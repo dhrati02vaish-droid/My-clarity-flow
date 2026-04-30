@@ -1,0 +1,78 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 260 10% 9%;
+    --foreground: 0 0% 98%;
+    --card: 260 10% 12%;
+    --card-foreground: 0 0% 98%;
+    --popover: 260 10% 10%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 268 100% 69%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 233 100% 64%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 260 10% 20%;
+    --muted-foreground: 260 5% 70%;
+    --accent: 233 100% 64%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 260 10% 20%;
+    --input: 260 10% 20%;
+    --ring: 268 100% 69%;
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body overflow-x-hidden;
+    background-color: #17151a;
+  }
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-dark {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.btn-gradient {
+  background: linear-gradient(135deg, #AA62FF 0%, #475BFF 100%);
+  transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+  box-shadow: 0 0 20px rgba(170, 98, 255, 0.5), 0 0 40px rgba(71, 91, 255, 0.3);
+  transform: translateY(-1px);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #AA62FF 0%, #475BFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blur-orb {
+  position: fixed;
+  border-radius: 50%;
+  filter: blur(100px);
+  z-index: -1;
+  opacity: 0.15;
+  pointer-events: none;
+}
