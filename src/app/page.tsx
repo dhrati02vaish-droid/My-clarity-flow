@@ -276,7 +276,7 @@ export default function LandingPage() {
             <div className="relative w-80 h-80">
               <div className="absolute inset-0 bg-primary/30 rounded-full blur-3xl animate-pulse" />
               <img 
-                src="https://picsum.photos/seed/ai-mentor/600/600" 
+                src="/clone-3d.png"/seed/ai-mentor/600/600" 
                 alt="AI Mentor" 
                 className="w-full h-full object-cover rounded-3xl border border-white/10 shadow-2xl relative z-10 grayscale hover:grayscale-0 transition-all duration-700"
                 data-ai-hint="futuristic ai"
