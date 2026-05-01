@@ -275,11 +275,7 @@ export default function LandingPage() {
           <div className="lg:w-1/2 flex justify-center">
             <div className="relative w-80 h-80">
               <div className="absolute inset-0 bg-primary/30 rounded-full blur-3xl animate-pulse" />
-              <img 
-                src="/clone-3d.png”
-                alt="AI Mentor" 
-                className="w-full h-full object-cover rounded-3xl border border-white/10 shadow-2xl relative z-10 grayscale hover:grayscale-0 transition-all duration-70
-              />
+             <img src="/clone-3d.png" alt="AI Mentor" className="w-full h-full object-cover rounded-3xl border border-white/10 shadow-2xl relative z-10" />
             </div>
           </div>
         </GlassCard>
