@@ -1,7 +1,7 @@
 
 import type {Metadata} from 'next';
 import './globals.css';
-import { Toast } from '@/components/ui/toast';
+import { Toast } from '../components/ui/toast';
 
 export const metadata: Metadata = {
   title: 'Clarity Flow | AI-Driven Life Strategic Planning',
