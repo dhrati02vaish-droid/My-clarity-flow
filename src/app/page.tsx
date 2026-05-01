@@ -2,13 +2,13 @@
 "use client";
 
 import React, { useState } from 'react';
-import { BackgroundOrbs } from '@/components/BackgroundOrbs';
-import { WhatsAppButton } from '@/components/WhatsAppButton';
-import { GlassCard } from '@/components/GlassCard';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { Label } from '@/components/ui/label';
+import { BackgroundOrbs } from '../components/BackgroundOrbs';
+import { WhatsAppButton } from '../components/WhatsAppButton';
+import { GlassCard } from '../components/GlassCard';
+import { Button } from '../components/ui/button';
+import { Input } from '../components/ui/input';
+import { Textarea } from '../components/ui/textarea';
+import { Label } from '../components/ui/label';
 import { Sparkles, Brain, Target, Shield, Rocket, Download, Lock } from 'lucide-react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
