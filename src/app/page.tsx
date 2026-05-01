@@ -278,8 +278,7 @@ export default function LandingPage() {
               <img 
                 src="/clone-3d.png”
                 alt="AI Mentor" 
-                className="w-full h-full object-cover rounded-3xl border border-white/10 shadow-2xl relative z-10 grayscale hover:grayscale-0 transition-all duration-700"
-                data-ai-hint="futuristic ai"
+                className="w-full h-full object-cover rounded-3xl border border-white/10 shadow-2xl relative z-10 grayscale hover:grayscale-0 transition-all duration-70
               />
             </div>
           </div>
