@@ -1,7 +1,7 @@
 
 import type {Metadata} from 'next';
 import './globals.css';
-import { Toaster } from '@/components/ui/toaster';
+import { Toast } from '@/components/ui/toast';
 
 export const metadata: Metadata = {
   title: 'Clarity Flow | AI-Driven Life Strategic Planning',
@@ -22,7 +22,7 @@ export default function RootLayout({
       </head>
       <body className="font-body antialiased bg-background text-foreground">
         {children}
-        <Toaster />
+        <Toast />
       </body>
     </html>
   );
